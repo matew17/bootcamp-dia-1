@@ -1,0 +1,11 @@
+<div>
+  <img [src]="imgSource" />
+  <label>{{counter}} times</label>
+  <button (click)="count()">Click Me!</button>
+</div>
+<br><br>
+<div>
+  <label>Enabled/disabled</label>
+  <input type="text" [disabled]="!enable" value="">
+  <button type="button" (click)="status()">Status!</button>
+</div>

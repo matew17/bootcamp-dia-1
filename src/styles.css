@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+button{
+    padding:15px 30px;
+    border: 0px none;
+    background-color: rgba(0,0,0, 0.8);
+    color:#fff;
+}
+button:hover{
+    background-color: rgba(0,0,0, 0.5);
+}
+input {
+    padding:10px;
+    box-sizing: border-box;
+}
+.app-my-component-container {
+    width:100%;
+    text-align: center;
+    padding:20px;
+    background-color: rgba(0,0,0, 0.6);
+    color:#fff;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top:15px;
+    width:100%;
+    text-align: center;
+    padding:20px;
+    background-color: rgba(0,0,0, 0.4);
+    color:#fff;
+    box-sizing: border-box;
+}
