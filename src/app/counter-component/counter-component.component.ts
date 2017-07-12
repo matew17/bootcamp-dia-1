@@ -14,7 +14,7 @@ export class CounterComponentComponent implements OnInit {
   }
   counter:number = 0;
   enable:boolean = false;
-  imgSource = './../favicon.ico';
+  imgSource = './favicon.ico';
 
   count() {
     this.counter ++;
